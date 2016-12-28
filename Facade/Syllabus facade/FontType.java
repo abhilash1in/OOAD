@@ -17,7 +17,7 @@ public class FontType implements InfoManager {
      */
     public void vary() {
         // TODO implement here
-	System.out.println("\nIn FontType");
+	   System.out.println("\nIn FontType");
     }
 
 }

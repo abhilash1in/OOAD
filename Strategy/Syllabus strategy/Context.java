@@ -21,6 +21,4 @@ public class Context {
    public void executeDisplay(){
       strategy.display();
    }
-
-
 }

@@ -17,7 +17,7 @@ public class FontSize implements InfoManager {
      */
     public void vary() {
         // TODO implement here
-	System.out.println("\nIn FontSize");
+	   System.out.println("\nIn FontSize");
     }
 
 }

@@ -17,11 +17,11 @@ public class V1Drawing implements DrawPattern {
      */
     public void drawLine() {
         // TODO implement here
-	DP1 dp1=new DP1();
-	dp1.draw_a_line();
-	dp1.draw_a_line();
-	dp1.draw_a_line();
-	dp1.draw_a_line();
+		DP1 dp1=new DP1();
+		dp1.draw_a_line();
+		dp1.draw_a_line();
+		dp1.draw_a_line();
+		dp1.draw_a_line();
     }
 
     /**
@@ -31,6 +31,6 @@ public class V1Drawing implements DrawPattern {
         // TODO implement here
 		DP1 dp1=new DP1();
 		dp1.draw_a_circle();
-}
+	}
 
 }

@@ -17,7 +17,7 @@ public class Currency implements InfoManager {
      */
     public void vary() {
         // TODO implement here
-	System.out.println("\nIn Currency");
+		System.out.println("\nIn Currency");
     }
 
 }

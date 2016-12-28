@@ -6,14 +6,17 @@ public class Boiler {
     private boolean isEmpty = true;
     private boolean isHeated = false;
 
+    private Boiler(){
+        //required private Constructor
+    }
+
     public static Boiler getBoiler(){
         if(b == null){
             b = new Boiler();
-            return b;
         }else{
             System.out.println("Boiler already initiallized");
-            return null;
         }
+        return b;
     }
 
     private boolean isEmpty() {
@@ -38,7 +41,7 @@ public class Boiler {
             System.out.println("Filled raw mixture");
         }
         else{
-            System.out.println("Boiler is empty");
+            System.out.println("Boiler is not empty");
         }
     }
 

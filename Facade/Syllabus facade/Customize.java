@@ -13,9 +13,9 @@ public class Customize {
 	private InfoManager obj2;
 	private InfoManager obj3;
     public Customize() {
-	obj1=new FontType();
-	obj2=new FontSize();
-	obj3=new Currency();
+        obj1=new FontType();
+        obj2=new FontSize();
+        obj3=new Currency();
     }
 
 
@@ -24,26 +24,26 @@ public class Customize {
      */
     public void type() {
         // TODO implement here
-	System.out.println("\nIn Customize");
-	obj1.vary();
+    	System.out.println("\nIn Customize");
+    	obj1.vary();
     }
 
     /**
      * 
      */
     public void size() {
-	System.out.println("\nIn Customize");
         // TODO implement here
-	obj2.vary();
+        System.out.println("\nIn Customize");
+        obj2.vary();
     }
 
     /**
      * 
      */
     public void currency() {
-	System.out.println("\nIn Customize");
         // TODO implement here
-	obj3.vary();
+        System.out.println("\nIn Customize");
+        obj3.vary();
     }
 
 }

@@ -10,8 +10,9 @@ public class Shape {
      * Default constructor
      */
 	public DrawPattern drawpattern;
+	
     public Shape(DrawPattern drawpattern) {
-	this.drawpattern=drawpattern;
+		this.drawpattern=drawpattern;
     }
 
 

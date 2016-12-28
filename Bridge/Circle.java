@@ -10,16 +10,15 @@ public class Circle extends Shape {
      * Default constructor
      */
     public Circle(DrawPattern drawpattern) {
-	super(drawpattern);
-	    }
+		super(drawpattern);
+	}
 
     /**
      * 
      */
     public void draw() {
-
-	drawpattern.drawCircle();
         // TODO implement here
+        drawpattern.drawCircle();
     }
 
 }

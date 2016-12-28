@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 /**
@@ -12,13 +11,11 @@ public class XXCircle implements XXShape {
 	
 	Shape obj;
     public XXCircle() {
-	obj=new Circle();
+		obj=new Circle();
     }
 
 	public void display() {
 		System.out.println("\nIn XXCircle");
 		obj.display();
-}
-
-
+	}
 }

@@ -17,11 +17,11 @@ public class V2Drawing implements DrawPattern {
      */
     public void drawLine() {
         // TODO implement here
-	DP2 dp2=new DP2();
-	dp2.drawline();
-	dp2.drawline();
-	dp2.drawline();
-	dp2.drawline();
+		DP2 dp2=new DP2();
+		dp2.drawline();
+		dp2.drawline();
+		dp2.drawline();
+		dp2.drawline();
     }
 
     /**
@@ -29,8 +29,8 @@ public class V2Drawing implements DrawPattern {
      */
     public void drawCircle() {
         // TODO implement here
-	DP2 dp2=new DP2();
-	dp2.drawcircle();
+		DP2 dp2=new DP2();
+		dp2.drawcircle();
     }
 
 }
